@@ -1,0 +1,83 @@
+body {
+  font-family: arial black;
+  margin: 0;
+  padding: 0;
+  background: #88f262;
+}
+header {
+  background-image: url(image/pp-56815c79a43f5e4d409245f1-ph0-1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 50vw;
+}
+
+h1 {
+  font-size: 7rem;
+  color: #50a147;
+  margin: 0;
+}
+
+p1 {
+  color: #fff;
+  background-color: #50a147;
+  font-size: 1 7rem;
+  font-style: italic;
+}
+
+.qualites {
+  display: flex;
+  justify-content: space-around;
+
+  padding: 20px;
+}
+
+.carte {
+  background-color: #efd368;
+  padding: 1px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 60px 60px 60px #ffffff50;
+}
+
+.formulaire {
+  background-color: #50a147;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.formulaire h2 {
+  font-size: 3rem;
+  color: #efd368;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input,
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  width: 200px;
+  padding: 10px;
+  background-color: #6bb2e8;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+}
+.carte img {
+  width: 22%;
+}
+.mainquipointe img {
+  width: 100px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
